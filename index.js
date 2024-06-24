@@ -7,12 +7,10 @@ const auto = new SequelizeAuto('portal_empleos_testingdb', 'root', 'password', {
   dialect: 'mysql',
   lang: 'ts',
   directory: './models',
-  caseModel: 'l',
-  caseFile: 'l',
   caseProp: 'o',
   additional: {
-    timestamps: false,
-  },
+    timestamps: false
+  }
 })
 
 auto
